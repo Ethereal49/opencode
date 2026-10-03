@@ -129,8 +129,9 @@ VercelAIGateway.configure().experimental.evaluation("typesafe-ai/jev")
 
 OpenRouter reads `OPENROUTER_API_KEY`. Vercel reads `AI_GATEWAY_API_KEY`, then `VERCEL_OIDC_TOKEN`.
 The common API uses `boolean`; System One routes lower it to native `noul`.
-Choice and score confidence plus score legends remain available in provider metadata, and the
-provider's rounded probabilities are returned unchanged.
+Choice and score answers include `confidence` when the provider returns it, such as
+`response.answers.department.confidence`. Score legends remain available in provider metadata, and
+the provider's rounded probabilities are returned unchanged.
 
 ## Alibaba Cloud Model Studio
 
@@ -1222,7 +1223,7 @@ const gateway = CloudflareAIGateway.configure({
 }).model("workers-ai/@cf/meta/llama-3.1-8b-instruct")
 ```
 
-Included LLM providers: OpenAI, Anthropic, Google (Gemini), Google Vertex, Amazon Bedrock, Azure OpenAI, Baseten, Cerebras, Cloudflare AI Gateway, Cloudflare Workers AI, DeepInfra, DeepSeek, Fireworks, Groq, Mistral, OpenRouter, TogetherAI, and xAI. Z.ai currently exposes image generation. Generic Chat Completions, Responses, and Anthropic Messages-compatible entrypoints support custom endpoints.
+Included LLM providers: OpenAI, Anthropic, Google (Gemini), Google Vertex, Amazon Bedrock, Azure OpenAI, Baseten, Cerebras, Cohere, Cloudflare AI Gateway, Cloudflare Workers AI, DeepInfra, DeepSeek, Fireworks, Groq, Mistral, OpenRouter, TogetherAI, and xAI. Z.ai currently exposes image generation. Generic Chat Completions, Responses, and Anthropic Messages-compatible entrypoints support custom endpoints.
 
 Each named provider owns its module, endpoint, authentication, and route setup. Providers with the same wire format compose the shared protocol directly:
 
