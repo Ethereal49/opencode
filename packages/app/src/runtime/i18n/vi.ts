@@ -309,10 +309,6 @@ export const dict = {
   "dialog.project.edit.color.select": "Chọn màu {{color}}",
   "dialog.project.edit.worktree.startup": "Tập lệnh khởi động không gian làm việc",
   "dialog.project.edit.worktree.startup.placeholder": "ví dụ: bun install",
-  "dialog.releaseNotes.action.getStarted": "Bắt đầu",
-  "dialog.releaseNotes.action.next": "Tiếp theo",
-  "dialog.releaseNotes.action.hideFuture": "Không hiển thị lại",
-  "dialog.releaseNotes.media.alt": "Xem trước bản phát hành",
   "dialog.usageExceeded.dontShowAgain": "Không hiển thị lại",
 
   "toast.permissions.autoaccept.on.title": "Tự động chấp nhận quyền",
@@ -724,7 +720,6 @@ export const dict = {
   "session.view.select": "Chế độ xem phiên",
   "session.background.moveRunning": "Di chuyển đến nền",
   "session.timeline.working": "Đang làm việc",
-  "session.review.wrapLines": "Đường quấn",
   "session.websearch.title": "Tìm kiếm trên web của bên thứ ba",
   "session.websearch.description": "Chọn đại lý nhà cung cấp dịch vụ tìm kiếm sử dụng để tìm kiếm trên web",
   "session.websearch.provider": "Tìm kiếm nhà cung cấp",
@@ -784,8 +779,6 @@ export const dict = {
   "settings.timeline.category.subagents": "Chất phụ",
   "settings.timeline.category.notices": "Thông báo",
   "settings.timeline.category.tools": "Các công cụ khác",
-  "settings.general.row.mobileDiffWrap.description":
-    "Quấn các dòng dài trong các khác biệt trên thiết bị di động thay vì cuộn theo chiều ngang",
 
   "provider.connect.error.unsupportedFields": "Biểu mẫu xác thực này chứa các trường không được hỗ trợ",
   "settings.about.writtenByNames": "Được viết bởi {{names}}",
@@ -808,7 +801,6 @@ export const dict = {
   "server.connect.button": "Kết nối",
   "server.connect.address.invalid": "Nhập địa chỉ máy chủ HTTP hoặc HTTPS hợp lệ.",
   "server.connect.failed": "Không thể kết nối. Kiểm tra địa chỉ máy chủ và mật khẩu, sau đó thử lại.",
-  "server.connect.pair.description": "Chạy lệnh này trên máy tính của bạn để lấy thông tin kết nối.",
   "server.connect.scan": "Quét mã QR",
   "server.connect.scan.description": "Chĩa camera của bạn vào mã QR được hiển thị bởi cặp opencode.",
   "server.connect.scan.invalid": "Đây không phải mã ghép cặp OpenCode. Quét mã được hiển thị bởi ghép cặp opencode.",
@@ -816,7 +808,6 @@ export const dict = {
   "server.connect.camera.starting": "Đang mở camera…",
   "server.connect.mixedContent":
     "Không thể kết nối với máy chủ HTTP này từ trang HTTPS. Sử dụng địa chỉ máy chủ HTTPS thay vào đó.",
-  "server.connect.camera.insecure": "Quét QR yêu cầu mở trang này qua HTTPS hoặc trên localhost.",
   "server.connect.camera.unavailable": "Trình duyệt này không có camera. Nhập chi tiết kết nối của bạn thủ công.",
   "server.connect.camera.error":
     "Không thể mở camera. Cho phép truy cập camera hoặc nhập chi tiết kết nối của bạn thủ công.",

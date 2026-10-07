@@ -308,10 +308,6 @@ export const dict = {
   "dialog.project.edit.color.select": "Odaberite boju {{color}}",
   "dialog.project.edit.worktree.startup": "Skripta za pokretanje radnog prostora",
   "dialog.project.edit.worktree.startup.placeholder": "npr. lepinja instalirati",
-  "dialog.releaseNotes.action.getStarted": "Započnite",
-  "dialog.releaseNotes.action.next": "Sljedeći",
-  "dialog.releaseNotes.action.hideFuture": "Nemoj ih ubuduće prikazivati",
-  "dialog.releaseNotes.media.alt": "Pregled izdanja",
   "toast.permissions.autoaccept.on.title": "Automatsko prihvaćanje dopuštenja",
   "toast.permissions.autoaccept.on.description": "Zahtjevi za dopuštenje bit će automatski odobreni",
   "toast.permissions.autoaccept.off.title": "Zaustavljeno automatsko prihvaćanje dopuštenja",
@@ -726,7 +722,6 @@ export const dict = {
   "session.view.select": "Prikaz sesije",
   "session.background.moveRunning": "Premjesti u pozadinu",
   "session.timeline.working": "U tijeku",
-  "session.review.wrapLines": "Prelamaj retke",
   "session.websearch.title": "Web pretraživanje treće strane",
   "session.websearch.description": "Odaberite davatelja usluge pretraživanja koji agenti koriste za pretraživanje weba",
   "session.websearch.provider": "Davatelj usluge pretraživanja",
@@ -786,8 +781,6 @@ export const dict = {
   "settings.timeline.category.subagents": "Subagenti",
   "settings.timeline.category.notices": "Obavijesti",
   "settings.timeline.category.tools": "Ostali alati",
-  "settings.general.row.mobileDiffWrap.description":
-    "Zamotajte duge retke u mobilne razlike umjesto vodoravnog pomicanja",
   "session.background.shell.few": "{{count}} ljuske",
   "session.background.subagent.few": "{{count}} podagenta",
   "settings.about.otherContributor.few": "{{count}} druga",
@@ -812,7 +805,6 @@ export const dict = {
   "server.connect.button": "Poveži se",
   "server.connect.address.invalid": "Unesite ispravnu HTTP ili HTTPS adresu poslužitelja.",
   "server.connect.failed": "Povezivanje nije uspjelo. Provjerite adresu poslužitelja i lozinku, pa pokušajte ponovno.",
-  "server.connect.pair.description": "Pokrenite ovu naredbu na računalu da biste dobili podatke za povezivanje.",
   "server.connect.scan": "Skeniraj QR kod",
   "server.connect.scan.description": "Usmjerite kameru prema QR kodu koji prikazuje opencode pair.",
   "server.connect.scan.invalid": "Ovo nije OpenCode kod za uparivanje. Skenirajte kod koji prikazuje opencode pair.",
@@ -820,8 +812,6 @@ export const dict = {
   "server.connect.camera.starting": "Otvaranje kamere…",
   "server.connect.mixedContent":
     "Nije se moguće povezati s ovim HTTP poslužiteljem s HTTPS stranice. Umjesto toga koristite HTTPS adresu poslužitelja.",
-  "server.connect.camera.insecure":
-    "Za skeniranje QR koda ovu stranicu morate otvoriti putem HTTPS-a ili na localračunalu domaćinu.",
   "server.connect.camera.unavailable": "Ovom pregledniku nije dostupna kamera. Ručno unesite podatke za povezivanje.",
   "server.connect.camera.error":
     "Kameru nije bilo moguće otvoriti. Dozvolite pristup kameri ili ručno unesite podatke za povezivanje.",

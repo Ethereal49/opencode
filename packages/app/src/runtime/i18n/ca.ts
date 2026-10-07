@@ -296,10 +296,6 @@ export const dict = {
   "dialog.project.edit.color.select": "Seleccioneu el color {{color}}.",
   "dialog.project.edit.worktree.startup": "Script d'inici de l'espai de treball",
   "dialog.project.edit.worktree.startup.placeholder": "p. ex. bun install",
-  "dialog.releaseNotes.action.getStarted": "Comença",
-  "dialog.releaseNotes.action.next": "A continuació",
-  "dialog.releaseNotes.action.hideFuture": "No mostris aquestes en el futur",
-  "dialog.releaseNotes.media.alt": "Allibera la vista prèvia",
   "toast.permissions.autoaccept.on.title": "Permisos d'acceptació automàtica",
   "toast.permissions.autoaccept.on.description": "Les sol·licituds de permís s'aprovaran automàticament",
   "toast.permissions.autoaccept.off.title": "S'ha aturat l'acceptació automàtica de permisos",
@@ -723,7 +719,6 @@ export const dict = {
   "session.view.select": "Visualització de sessió",
   "session.background.moveRunning": "Vés al fons",
   "session.timeline.working": "Treballant",
-  "session.review.wrapLines": "Ajusta les línies",
   "session.websearch.title": "Cerca web de tercers",
   "session.websearch.description": "Selecciona els agents proveïdors de cerca que utilitzen per cercar al web",
   "session.websearch.provider": "Proveïdor de cerca",
@@ -784,8 +779,6 @@ export const dict = {
   "settings.timeline.category.subagents": "Subagents",
   "settings.timeline.category.notices": "Avisos",
   "settings.timeline.category.tools": "Altres eines",
-  "settings.general.row.mobileDiffWrap.description":
-    "Ajustar les línies llargues en diffs mòbils en lloc de desplaçar-se horitzontalment",
 
   "session.background.shell.many": "{{count}} shells",
   "session.background.subagent.many": "{{count}} subagents",
@@ -803,8 +796,6 @@ export const dict = {
   "server.connect.address.invalid": "Introduïu una adreça de servidor HTTP o HTTPS vàlida.",
   "server.connect.failed":
     "No s'ha pogut connectar. Comproveu l'adreça i la contrasenya del servidor i torneu-ho a provar.",
-  "server.connect.pair.description":
-    "Executeu aquesta ordre al vostre ordinador per obtenir els detalls de la vostra connexió.",
   "server.connect.scan": "Escaneja el codi QR",
   "server.connect.scan.description": "Apunteu la càmera al codi QR que mostra opencode pair.",
   "server.connect.scan.invalid":
@@ -813,7 +804,6 @@ export const dict = {
   "server.connect.camera.starting": "Obertura de la càmera...",
   "server.connect.mixedContent":
     "No s'ha pogut connectar a aquest servidor HTTP des d'una pàgina HTTPS. Utilitzeu una adreça de servidor HTTPS.",
-  "server.connect.camera.insecure": "L'exploració de QR requereix obrir aquesta pàgina a HTTPS o a localhost.",
   "server.connect.camera.unavailable":
     "No hi ha cap càmera disponible per a aquest navegador. Introduïu els detalls de connexió manualment.",
   "server.connect.camera.error":

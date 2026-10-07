@@ -297,10 +297,6 @@ export const dict = {
   "dialog.project.edit.color.select": "{{color}} rangini tanlang",
   "dialog.project.edit.worktree.startup": "Ish maydonini ishga tushirish skripti",
   "dialog.project.edit.worktree.startup.placeholder": "masalan bun install",
-  "dialog.releaseNotes.action.getStarted": "Boshlash",
-  "dialog.releaseNotes.action.next": "Keyingi",
-  "dialog.releaseNotes.action.hideFuture": "Kelajakda bularni ko'rsatmang",
-  "dialog.releaseNotes.media.alt": "Chiqarishni oldindan ko'rish",
   "toast.permissions.autoaccept.on.title": "Ruxsatlarni avtomatik qabul qilish",
   "toast.permissions.autoaccept.on.description": "Ruxsat so'rovlari avtomatik ravishda tasdiqlanadi",
   "toast.permissions.autoaccept.off.title": "Ruxsatlarni avtomatik qabul qilish toʻxtatildi",
@@ -719,7 +715,6 @@ export const dict = {
   "session.view.select": "Sessiya ko‘rinishi",
   "session.background.moveRunning": "Fonga o‘tkazish",
   "session.timeline.working": "Bajarilmoqda",
-  "session.review.wrapLines": "Qatorlarni o‘rash",
   "session.websearch.title": "Uchinchi tomon veb-qidiruvi",
   "session.websearch.description": "Agentlar vebda qidirish uchun foydalanadigan qidiruv provayderini tanlang",
   "session.websearch.provider": "Qidiruv provayderi",
@@ -781,8 +776,6 @@ export const dict = {
   "settings.timeline.category.subagents": "Subagentlar",
   "settings.timeline.category.notices": "Bildirishnomalar",
   "settings.timeline.category.tools": "Boshqa vositalar",
-  "settings.general.row.mobileDiffWrap.description":
-    "Mobil diff-larda gorizontal aylantirish o‘rniga uzun qatorlarni o‘rash",
   "provider.connect.error.unsupportedFields": "Bu autentifikatsiya shaklida qo‘llab-quvvatlanmaydigan maydonlar bor",
   "settings.about.writtenByNames": "Muallif: {{names}}",
   "settings.about.illustratedByNames": "Rassom: {{names}}",
@@ -804,8 +797,6 @@ export const dict = {
   "server.connect.button": "Ulanish",
   "server.connect.address.invalid": "Yaroqli HTTP yoki HTTPS server manzilini kiriting.",
   "server.connect.failed": "Ulanib bo‘lmadi. Server manzili va parolni tekshiring, keyin qayta urinib ko'ring.",
-  "server.connect.pair.description":
-    "Ulanish ma'lumotlarini olish uchun ushbu buyruqni kompyuteringizda ishga tushiring.",
   "server.connect.scan": "QR kodini skanerlang",
   "server.connect.scan.description": "Kamerani opencode pair koʻrsatgan QR kodga qarating.",
   "server.connect.scan.invalid": "Bu OpenCode ulash kodi emas. opencode pair koʻrsatgan kodni skanerlang.",
@@ -813,7 +804,6 @@ export const dict = {
   "server.connect.camera.starting": "Kamera ochilmoqda…",
   "server.connect.mixedContent":
     "HTTPS sahifasidan ushbu HTTP serveriga ulanib boʻlmadi. Buning o'rniga HTTPS server manzilidan foydalaning.",
-  "server.connect.camera.insecure": "QR skanerlash uchun bu sahifani HTTPS yoki localhost orqali ochish kerak.",
   "server.connect.camera.unavailable":
     "Bu brauzerda hech qanday kamera mavjud emas. Ulanish ma'lumotlarini qo'lda kiriting.",
   "server.connect.camera.error":
